@@ -1,0 +1,165 @@
+/* General */
+
+html,
+body {
+    text-align: center;
+    background-image: url("assets/images/background\ image.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+}
+
+#pageContainer {
+    margin-top: 30px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Enter Page */
+
+.enterPage {
+    padding: 100px 30px 30px 30px;
+}
+
+.enterPage div {
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 15%;
+}
+
+.enterPage h1 {
+    font-size: 50px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Home Link */
+
+.loaderSpinnerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.loadingText {
+    animation: textShadow 2s infinite;
+}
+
+.card {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px;
+    display: inline-block;
+    overflow: auto;
+    opacity: 0.85;
+}
+
+.popCoinName {
+    color: black;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Report Page */
+
+#reportsPage {
+    margin: 50px 40px 50px 40px;
+}
+
+#reportsPage>h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    animation: textShadow 5s infinite;
+}
+
+@keyframes textShadow {
+    50% {
+        text-shadow: 0 0 50px white;
+    }
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* About Page */
+
+.aboutMe {
+    display: flex;
+}
+
+.aboutMe>div {
+    width: 50%;
+}
+
+.aboutMe>div:first-child {
+    text-align: left;
+    margin: 30px;
+}
+
+.aboutMe>div>img {
+    width: 170px;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: 1.5s;
+}
+
+@media screen and (min-width: 800px) {
+    .aboutMe>div>img {
+        width: 250px;
+    }
+    .aboutMe>div>img:hover {
+        transform: scale(1.3);
+    }
+}
+
+.aboutMe>div>img:hover {
+    transform: scale(1.15);
+}
+
+.mySkills {
+    margin: 0px 15% 20px 15%;
+}
+
+.mySkills>div {
+    display: inline-block;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.mySkills>div:hover {
+    transform: scale(1.2);
+}
+
+.skill image {
+    width: 50px;
+    height: 50px;
+}
+
+.skill span {
+    font-size: small;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+/* Modal Message */
+
+.modal-content {
+    background-color: rgb(38, 38, 38, 0.9);
+}
+
+.modal-body {
+    display: inline-block;
+    opacity: 1;
+}
+
+.modal-body>div {
+    margin: 15px;
+}
