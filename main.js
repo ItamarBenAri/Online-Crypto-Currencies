@@ -475,9 +475,7 @@
                         <h5>I'm a fullstack developer based in Atlit, Israel</h5>
                         <p>Since 2020, I enjoy programming and researching new things and making them simple and doable. When I'm not trying to fix console errors, you'll find me trading the stock market, doing street workouts and enjoying good music.</p>
                     </div>
-                    <div>
-                        <img src="assets/images/My Photo.jpeg"/>
-                    </div>
+                    <img src="assets/images/My Photo.jpeg"/>
                 </div>
                 <div class="mySkills">
                     <h2>My Skills</h2>

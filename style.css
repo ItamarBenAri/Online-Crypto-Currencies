@@ -91,37 +91,34 @@ body {
 /* About Page */
 
 .aboutMe {
-    display: flex;
-}
-
-.aboutMe>div {
-    width: 50%;
-}
-
-.aboutMe>div:first-child {
+    display: inline-flex;
     text-align: left;
     margin: 30px;
 }
 
-.aboutMe>div>img {
+.aboutMe>img {
+    float: right;
     width: 170px;
-    margin: 30px;
+    height: 170px;
     border: 2px solid black;
     border-radius: 50%;
-    transition: 1.5s;
+    transition: 1.5s ease;
 }
 
-@media screen and (min-width: 800px) {
-    .aboutMe>div>img {
+@media screen and (min-width: 1000px) {
+    .aboutMe>img {
         width: 250px;
+        height: 250px;
+        margin-right: 150px;
+        margin-left: 250px;
     }
-    .aboutMe>div>img:hover {
+    .aboutMe>img:hover {
         transform: scale(1.3);
     }
 }
 
-.aboutMe>div>img:hover {
-    transform: scale(1.15);
+.aboutMe>img:hover {
+    transform: scale(1.1);
 }
 
 .mySkills {
