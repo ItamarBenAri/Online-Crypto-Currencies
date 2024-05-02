@@ -12,6 +12,7 @@ Welcome to the Online Crypto Currencies platform! This project is a single-page 
 4. [About](#about)
 5. [Reports](#reports)
 6. [Credits](#credits)
+7. [Author](#author)
 
 ---
 
@@ -58,3 +59,9 @@ The Reports section offers interactive charts to visualize cryptocurrency data o
 ### Credits <a name="credits"></a>
 
 This project was developed by Itamar Ben Ari and utilizes various technologies and libraries, including HTML, JavaScript, Bootstrap, jQuery, and CanvasJS.
+
+---
+
+## Author <a name="author"></a>
+
+This Online Crypto Currencies application was created by Itamar Ben Ari.
